@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.wrapper{
+    margin: 5px 100px;
+    border: solid black 5px;
+}
+.header{
+    background-color: bisque;
+    height:150px;
+}
+.main-nav{
+    background-color: cornflowerblue;
+    height:40px;
+}
+/* .container{
+    border: solid red 5px;
+} */
+.content{
+    background-color:darkorange;
+    min-height: 530px;
+    width: 80%;
+    float:left;
+    font-size:20px;
+    padding: 20px;
+}
+.right-sidebar{
+    background-color: darkturquoise;
+    min-height: 530px;
+    width:20%;
+    float:right;
+}
+.container::after{
+    content:" ";
+    display:block;
+    clear:both;
+    *zoom:1;
+}
+.footer{
+    background-color: darkslategray;
+    height:40px;
+}
